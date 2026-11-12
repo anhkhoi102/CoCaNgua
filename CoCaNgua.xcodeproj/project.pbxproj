@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C0000000000000000000014 /* GameCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1C0000000000000000000015 /* GameCore */; };
+		1C000000000000000000001A /* OnlineCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1C000000000000000000001B /* OnlineCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C0000000000000000000004 /* CoCaNgua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoCaNgua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C0000000000000000000007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C0000000000000000000008 /* CoCaNgua.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoCaNgua.entitlements; sourceTree = "<group>"; };
+		1C0000000000000000000017 /* CoCaNguaCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CoCaNguaCore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1C0000000000000000000005 /* CoCaNgua */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CoCaNgua;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C0000000000000000000012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0000000000000000000014 /* GameCore in Frameworks */,
+				1C000000000000000000001A /* OnlineCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C0000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				1C0000000000000000000005 /* CoCaNgua */,
+				1C0000000000000000000006 /* SupportingFiles */,
+				1C0000000000000000000018 /* Packages */,
+				1C0000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C0000000000000000000018 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				1C0000000000000000000017 /* CoCaNguaCore */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		1C0000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C0000000000000000000004 /* CoCaNgua.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C0000000000000000000006 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1C0000000000000000000007 /* Info.plist */,
+				1C0000000000000000000008 /* CoCaNgua.entitlements */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C0000000000000000000010 /* CoCaNgua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C0000000000000000000030 /* Build configuration list for PBXNativeTarget "CoCaNgua" */;
+			buildPhases = (
+				1C0000000000000000000011 /* Sources */,
+				1C0000000000000000000012 /* Frameworks */,
+				1C0000000000000000000013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1C0000000000000000000005 /* CoCaNgua */,
+			);
+			name = CoCaNgua;
+			packageProductDependencies = (
+				1C0000000000000000000015 /* GameCore */,
+				1C000000000000000000001B /* OnlineCore */,
+			);
+			productName = CoCaNgua;
+			productReference = 1C0000000000000000000004 /* CoCaNgua.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2720;
+				LastUpgradeCheck = 2720;
+				TargetAttributes = {
+					1C0000000000000000000010 = {
+						CreatedOnToolsVersion = 27.2;
+					};
+				};
+			};
+			buildConfigurationList = 1C0000000000000000000020 /* Build configuration list for PBXProject "CoCaNgua" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				vi,
+				en,
+				Base,
+			);
+			mainGroup = 1C0000000000000000000002;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1C0000000000000000000016 /* XCLocalSwiftPackageReference "Packages/CoCaNguaCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1C0000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C0000000000000000000010 /* CoCaNgua */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C0000000000000000000013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C0000000000000000000011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C0000000000000000000021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_LANGUAGE = en;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = auto;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		1C0000000000000000000022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_LANGUAGE = en;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = auto;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		1C0000000000000000000031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGN_ENTITLEMENTS = SupportingFiles/CoCaNgua.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SupportingFiles/Info.plist;
+				"INFOPLIST_FILE[sdk=iphone*]" = "SupportingFiles/Info-iOS.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphone*]" = "SupportingFiles/CoCaNgua-iOS.entitlements";
+				"ENABLE_HARDENED_RUNTIME[sdk=iphone*]" = NO;
+				"LD_RUNPATH_SEARCH_PATHS[sdk=iphone*]" = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anhkhoi.cocangua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		1C0000000000000000000032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGN_ENTITLEMENTS = SupportingFiles/CoCaNgua.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SupportingFiles/Info.plist;
+				"INFOPLIST_FILE[sdk=iphone*]" = "SupportingFiles/Info-iOS.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphone*]" = "SupportingFiles/CoCaNgua-iOS.entitlements";
+				"ENABLE_HARDENED_RUNTIME[sdk=iphone*]" = NO;
+				"LD_RUNPATH_SEARCH_PATHS[sdk=iphone*]" = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anhkhoi.cocangua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C0000000000000000000020 /* Build configuration list for PBXProject "CoCaNgua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C0000000000000000000021 /* Debug */,
+				1C0000000000000000000022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C0000000000000000000030 /* Build configuration list for PBXNativeTarget "CoCaNgua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C0000000000000000000031 /* Debug */,
+				1C0000000000000000000032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		1C0000000000000000000016 /* XCLocalSwiftPackageReference "Packages/CoCaNguaCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/CoCaNguaCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C0000000000000000000015 /* GameCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GameCore;
+		};
+		1C000000000000000000001B /* OnlineCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OnlineCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1C0000000000000000000001 /* Project object */;
+}

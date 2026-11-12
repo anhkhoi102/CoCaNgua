@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Entitlements khi bật Game Center. Dùng thay cho CoCaNgua.entitlements sau khi chạy Scripts/enable-game-center.sh.
+  com.apple.developer.game-center là entitlement bị hạn chế: app phải được ký bằng provisioning profile của một
+  tài khoản Apple Developer, nếu không macOS sẽ không cho app khởi động.
+-->
+<plist version="1.0">
+<dict>
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<key>com.apple.developer.game-center</key>
+	<true/>
+</dict>
+</plist>
